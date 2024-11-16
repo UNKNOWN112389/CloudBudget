@@ -1,0 +1,104 @@
+@media (max-width:1050px) {
+    .menu {
+        transition: 0.3s;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #ed4c5c;
+        height: 100%;
+        flex-direction: column;
+        padding: 30px;
+        transform: translate(-100%);
+        cursor: pointer;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .menu {
+        margin-top: 0;
+    }
+
+    .center {
+        flex-direction: column;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .photo {
+        margin-top: 0px;
+        width: 75%;
+    }
+
+    .photo img {
+        width: 100%;
+    }
+
+    .text {
+        width: 70%;
+    }
+
+    .text h1 {
+        font-size: 32px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .cards-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .text-2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-1{
+        width: 100%;
+    }
+ 
+    .img-1 img {
+        width: 100%;
+    }
+
+    .ADS{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .newphoto{
+        width: 100%;
+    }
+
+    .newphoto img{
+        width: 100%;
+    }
+
+    .text-3{
+        width: 100%;
+    }
+
+    .ending{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .text-4{
+        margin-bottom: 90px;
+        width: 100%;
+    }
+
+    .inputs{
+        margin-bottom: 156px;
+    }
+}
