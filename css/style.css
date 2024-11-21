@@ -75,17 +75,18 @@
 }
 
 .subtitle {
-    margin-top: 40px;
+    margin: 40px auto 0;
     font-weight: 500;
     font-size: 24px;
     line-height: 150%;
+    width: 40%;
     text-align: center;
     color: #fff;
-    text-align: center;
 }
 
 .container {
-    margin: 0 165px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .btn-2 {
@@ -113,6 +114,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 100px;
 }
 
 .photo {
@@ -149,14 +151,10 @@
     color: #ed4c5c;
 }
 
-.photo {
-    margin: 9px 95px 0px 165px;
-}
-
 .text {
     margin: 127px;
     margin-right: 100px;
-    margin-left: 165px;
+    /* margin-left: 165px; */
 }
 
 .text p {
